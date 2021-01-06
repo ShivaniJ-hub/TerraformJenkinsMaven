@@ -17,11 +17,3 @@ resource "aws_instance" "Tomcat-Server" {
 data "template_file" "asg_init" {
   template = file("${path.module}/userdata.tpl")
 }
-
-variable "MY_ACCESS_KEY" {
-  type = string
-}
-
-variable "MY_SECRET_KEY" {
-  type = string
-}
