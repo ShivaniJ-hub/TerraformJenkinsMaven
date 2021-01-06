@@ -1,3 +1,1 @@
 region               = "ap-south-1"
-MY_ACCESS_KEY="AKIAYAGBFC4H3YSSFEUA"
-MY_SECRET_KEY="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"
